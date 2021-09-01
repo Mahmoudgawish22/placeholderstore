@@ -1,0 +1,13 @@
+#archive_mang {
+    width: 100%;
+    padding: 15px;
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
+}
+.btn_archive_mang {
+    background-color: #141414;
+}

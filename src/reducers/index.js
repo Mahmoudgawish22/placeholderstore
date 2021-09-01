@@ -1,0 +1,18 @@
+import { combineReducers } from 'redux'
+import users from './users'
+import types from './types'
+import sells from './sells'
+import reviews from './reviews'
+import returns from './returns'
+import products from './products'
+import product from './product'
+import orders from './orders'
+import offersImg from './offersImg'
+import offers from './offers'
+import news from './news'
+import companies from './companies'
+import auth from './auth'
+import user from './user'
+import company from './company'
+
+export default combineReducers({ users, types, sells, reviews, returns, products, product, orders, offersImg, offers, news, companies, auth, user, company });

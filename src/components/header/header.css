@@ -1,0 +1,126 @@
+#big__header {
+    padding: 0;
+}
+.langbtn {
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+#header__firstone__user {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+#user_profile {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid white;
+
+}
+#header__realone__logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+#header_realone_btns {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #ffffff;
+}
+#header_realone_btns:hover {
+    color: #1d1d1f;
+}
+.header__icons {
+    width: 30px;
+    height: 30px;
+}
+#header__realone__search {
+    display: flex;
+    gap: 5px;
+}
+#header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #141414;
+}
+.logo_text {
+    color: rgb(255, 255, 255);
+    font-family: 'Fuggles', cursive;
+    font-size: 30px;
+    font-weight: bold;
+}
+#header__navbar {
+    list-style: none;
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    gap: 5px;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    background-color: #1d1d1f;
+}
+.nav-link {
+    text-decoration: none;
+    color:  #ffffff;
+    font-size: 17px;
+    font-family: 'Oswald', sans-serif;          
+}
+.subnav-link {
+    color: #1d1d1f;
+}
+.nav-link:hover {
+    color: #cacaca;
+}
+.nav-link:active {
+    color: #cacaca;
+}
+.nav-link:focus {
+    color: #cacaca;
+}
+.site_logo {
+    height: 30px;
+    width: 30px;
+}
+#mobile__view {
+    background-color: #141414;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+.search_icon_mobile_view {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#ffffff;
+    text-decoration:none;
+}
+#searchbar_mobile_view {
+    height: 60px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    padding: 10px;
+}
+#mobile_header {
+    display: none;
+}
+@media (max-width: 1025px) {
+    #mobile_header {
+        display: block;
+        margin-bottom: 95px;
+    }
+    #header {
+        display: none;
+    }
+}

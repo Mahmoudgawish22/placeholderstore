@@ -1,0 +1,13 @@
+#order_manger {
+    width: 100%;
+    padding: 15px;
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
+}
+.btn_orders_mang {
+    background-color: #141414;
+}

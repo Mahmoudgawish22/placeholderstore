@@ -1,0 +1,10 @@
+#big__offers {
+    width: 100%;
+    padding: 0;
+}
+.slideshowitem {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5px;
+}

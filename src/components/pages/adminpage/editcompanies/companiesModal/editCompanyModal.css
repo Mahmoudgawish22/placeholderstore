@@ -1,0 +1,13 @@
+#editing_company {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img_editing_modal {
+    height: 200px;
+    width: auto;
+    border-radius: 5px;
+    object-fit: cover;
+}

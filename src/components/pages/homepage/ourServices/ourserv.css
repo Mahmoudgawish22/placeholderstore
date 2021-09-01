@@ -1,0 +1,47 @@
+#our_services {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background-color: #1d1d1f;
+    margin-top: 20px;
+}
+.discrbicon {
+    height: 150px;
+    width: 150px;
+}
+#discrbtitle {
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;  
+    font-size: 25px;
+    text-align: center;
+}
+#discrbsubcontent, .icondiscrb {
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;  
+}
+.prop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+#props {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.discbicon {
+    height: 70px;
+    width: 70px
+}
+#discrbsubcontent {
+    font-size: 20px;
+    padding: 20px;
+}

@@ -1,0 +1,54 @@
+#offers {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+#offers__title {
+    padding-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+.section__title {
+    font-family: 'Oswald', sans-serif;  
+}
+.seemore {
+    text-decoration: none;
+    color: black;
+}
+#left__offers {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex: 2;
+}
+#right__offers {
+    flex: 1
+}
+#offers__others {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+#offers__companies {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    align-items: center;
+    background-color: #141414;
+    border-radius: 10px;
+    padding: 50px;
+}
+.company_logo {
+    height: 40px;
+    width: 50px;
+}
+@media (max-width: 1025px) {
+    .company_logo {
+        height: 20px;
+        width: 30px;
+    }
+}

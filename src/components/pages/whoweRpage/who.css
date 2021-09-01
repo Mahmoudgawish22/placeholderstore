@@ -1,0 +1,44 @@
+#who {
+    min-height: 700px;
+    padding: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.right_who {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    align-self: flex-start;
+    border-bottom: 1px solid #1d1d1f6e;
+    border-right: 1px solid #1d1d1f6e;
+    border-bottom-right-radius: 10px;
+}
+.who_img {
+    height: 200px;
+    width: 200px;
+    flex: 1;
+}
+.who_details {
+    flex: 2;
+}
+.left_who {
+    padding: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    align-self: flex-end;
+    border-bottom: 1px solid #1d1d1f6e;
+    border-left: 1px solid #1d1d1f6e;
+    border-bottom-left-radius: 10px;
+}
+@media (max-width: 1025px) {
+    .left_who, .right_who {
+        flex-direction: column;
+    }
+}

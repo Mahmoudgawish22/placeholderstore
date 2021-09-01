@@ -1,0 +1,50 @@
+#trendySec {
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #fff;
+}
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #1d1d1f;
+}
+.section:hover {
+    color: rgb(97, 94, 94);
+}
+.section__photo {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.section__title {
+    font-size: 20px;
+}
+@media (max-width: 1025px) {
+    .section__photo {
+        height: 70px;
+        width: 70px;
+    }
+    .section__title {
+        font-size: 15px;
+    }
+}
+#sections {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: #fff;
+}
+.trendy_sections_title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;   
+}

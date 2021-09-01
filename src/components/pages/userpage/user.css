@@ -1,0 +1,27 @@
+#user {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.user_profile {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+#user_info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+}
+#user_info label {
+    padding: 20px;
+    border-bottom: 1px solid #1d1d1f5d;
+}
+@media (max-width: 1105px) {
+    #user {
+        padding: 10px;
+    }
+}

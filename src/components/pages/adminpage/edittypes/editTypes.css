@@ -1,0 +1,27 @@
+#edit_types {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    min-height: 700px;
+    padding: 25px;
+}
+.type_display {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+}
+.type_img_display {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+
+}
+.btn-type {
+    width: 100%;
+    background-color: #141414;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}

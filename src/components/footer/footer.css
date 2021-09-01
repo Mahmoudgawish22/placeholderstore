@@ -1,0 +1,60 @@
+#footer {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: #141414;
+    width: 100%;
+}
+.go-to-to {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+.go-to-to:hover {
+    color: rgb(201, 196, 196);
+}
+#upper_footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+#logo_subscribNews {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+#social_media {
+    display: flex;
+    gap: 20px;
+}
+#additional_directions {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.AD {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+.footercontent { 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.icondiscrbfooter {
+    text-align: center;
+    color: white;
+    font-size: 17px;
+}

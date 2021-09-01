@@ -1,0 +1,20 @@
+#best_com {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+.com_SlideShow {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.company_logo_S {
+    width: auto;
+    height: 80px;
+    object-fit: cover;
+}
