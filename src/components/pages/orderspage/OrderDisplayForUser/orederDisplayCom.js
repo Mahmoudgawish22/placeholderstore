@@ -30,7 +30,7 @@ const OrderDisplayCom = (props) => {
                 <label className='form_label' for="quantity">Quantity: {props.quantity}</label>
                 <div style={{height:'20px', width: '20px', backgroundColor: props.color}}></div>
                 <label style={{fontSize: '20px'}}>{props.size?.toUpperCase()}</label>
-                <label className='form_label' for="quantity">From: {productWeNeed[0].company}</label>
+                <label className='form_label' for="quantity">From: {productWeNeed[0]?.company}</label>
               </div>
                :
                 props.orderStatus=="Done"?
