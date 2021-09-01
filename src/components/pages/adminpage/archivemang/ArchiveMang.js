@@ -48,7 +48,7 @@ const ArchiveMang = () => {
                         <div key={item._id} className='order_item_card' style={{padding: '5px'}}>
                         <img className='order__img' src={done}/>
                         <div className='order_details'>
-                            <label style={{fontWeight: 'bold', textAlign: 'center'}}>Order {item._id} Is Delivered Successfully</label>
+                            <label style={{textAlign: 'center'}}>Order {item._id} Is Delivered Successfully</label>
                         </div>
                         <button onClick={()=> handleClickToShowOrder(item)} className='btn btn-block btn-dark btn_archive_mang'><i class="far fa-eye"></i></button>
                       </div>

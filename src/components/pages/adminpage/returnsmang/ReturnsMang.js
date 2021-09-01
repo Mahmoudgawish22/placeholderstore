@@ -50,7 +50,7 @@ const ReturnsMang = () => {
                         <div key={item._id} className='order_item_card' style={{padding: '5px'}}>
                         <img className='order__img' src={TBC}/>
                         <div className='order_details'>
-                            <label style={{fontWeight: 'bold', textAlign: 'center'}}>New Return Request For Order {item._id}</label>
+                            <label style={{textAlign: 'center'}}>New Return Request For Order {item._id}</label>
                         </div>
                         <button onClick={()=> handleDisplayReturn(item)} className='btn btn-block btn-dark btn_returns_mang'><i class="fas fa-pencil-alt"></i></button>
                       </div>
