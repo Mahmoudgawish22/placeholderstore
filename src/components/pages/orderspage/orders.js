@@ -76,7 +76,7 @@ export default function Orders(props) {
                         <div key={item._id} className='order_item_card' style={{padding: '5px'}}>
                           <img className='order__img' src={product}/>
                           <div className='order_details'>
-                            <label style={{textAlign: 'center'}}>Collecting Resources For Order {item._id}</label>
+                            <label style={{fontWeight: 'bold', textAlign: 'center'}}>Collecting Resources For Order {item._id}</label>
                             <label style={{textAlign: 'center'}}><i class="fas fa-truck-loading"></i> Aproximately Deliver In 5-12 days.</label>
                            </div>
                            <button style={{height: '100%'}} onClick={()=> handleClickToShowOrder(item)} className='btn btn-block btn-dark btn_orders_mang'><i class="far fa-eye"></i></button>
@@ -85,7 +85,7 @@ export default function Orders(props) {
                         <div key={item._id} className='order_item_card' style={{padding: '5px'}}>
                            <img className='order__img' src={HM}/>
                            <div className='order_details'>
-                               <label style={{textAlign: 'center'}}>Order {item._id} Is On The Way, Sir</label>
+                               <label style={{fontWeight: 'bold', textAlign: 'center'}}>Order {item._id} Is On The Way, Sir</label>
                                <label><i class="fas fa-truck-loading"></i> Call Number 01005255 For Moving Details</label>
                            </div>
                            <button style={{height: '100%'}} onClick={()=> handleClickToShowOrder(item)} className='btn btn-block btn-dark btn_orders_mang'><i class="far fa-eye"></i></button>
@@ -133,7 +133,7 @@ export default function Orders(props) {
                         <div key={item._id} className='order_item_card' style={{padding: '5px'}}>
                           <img className='order__img' src={done}/>
                           <div className='order_details'>
-                            <label style={{textAlign: 'center'}}>You Delivered The Order {item._id}, Sir</label>
+                            <label style={{fontWeight: 'bold', textAlign: 'center'}}>You Delivered The Order {item._id}, Sir</label>
                             <label style={{textAlign: 'center'}}>Please Rate It!</label>
                            </div>
                            <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', height: '100%'}}>

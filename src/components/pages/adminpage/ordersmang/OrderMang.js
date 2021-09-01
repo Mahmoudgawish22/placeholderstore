@@ -72,7 +72,7 @@ const OrderMang = () => {
                         <div key={item._id} className='order_item_card' style={{padding: '5px'}}>
                           <img className='order__img' src={TBC}/>
                           <div className='order_details'>
-                            <label style={{textAlign: 'center'}}>New Order, {item._id}</label>
+                            <label style={{textAlign: 'center'}}>New Order, <span style={{wordBreak: 'break-all'}}>{item._id}</span></label>
                            </div>
                            <button style={{height: '100%'}} onClick={()=> handleClickToModifyOrder(item)} className='btn btn-block btn-dark btn_orders_mang'><i class="fas fa-pencil-alt"></i></button>
                         </div>
@@ -98,7 +98,7 @@ const OrderMang = () => {
                         <div key={item._id} className='order_item_card' style={{padding: '5px'}}>
                           <img className='order__img' src={LFR}/>
                           <div className='order_details'>
-                            <label style={{textAlign: 'center'}}>We Need A Rider For Order {item._id}</label>
+                            <label style={{textAlign: 'center'}}>We Need A Rider For Order <span style={{wordBreak: 'break-all'}}>{item._id}</span></label>
                            </div>
                            <button style={{height: '100%'}} onClick={()=> handleClickToModifyOrder(item)} className='btn btn-block btn-dark btn_orders_mang'><i class="fas fa-pencil-alt"></i></button>
                         </div>
@@ -123,7 +123,7 @@ const OrderMang = () => {
                         <div key={item._id} className='order_item_card' style={{padding: '5px'}}>
                           <img className='order__img' src={OTW}/>
                           <div className='order_details'>
-                            <label style={{textAlign: 'center'}}>Order {item._id} Is On The Way</label>
+                            <label style={{textAlign: 'center'}}>Order <span style={{wordBreak: 'break-all'}}>{item._id}</span> Is On The Way</label>
                            </div>
                            <button style={{height: '100%'}} onClick={()=> handleClickToModifyOrder(item)} className='btn btn-block btn-dark btn_orders_mang'><i class="fas fa-pencil-alt"></i></button>
                         </div>
