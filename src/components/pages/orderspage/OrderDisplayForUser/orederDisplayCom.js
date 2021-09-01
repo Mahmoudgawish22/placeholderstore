@@ -26,7 +26,7 @@ const OrderDisplayCom = (props) => {
                 <img className='product_img_check' src={productWeNeed[0]?.photo || replace} alt='product_img' style={{height:'200px', width:'200px', objectFit: 'cover', borderRadius: '50%'}}/>
                 {props.dontDisplay?
                 <div style={{gap: '5px', display: 'flex', alignItems: 'flex-start', flexDirection: 'column'}}>
-                <h3 className='form_label' for="quantity">{productWeNeed[0].name.slice(0,8)}</h3>
+                <h3 className='form_label' for="quantity">{productWeNeed[0]?.name.slice(0,8)}</h3>
                 <label className='form_label' for="quantity">Quantity: {props.quantity}</label>
                 <div style={{height:'20px', width: '20px', backgroundColor: props.color}}></div>
                 <label style={{fontSize: '20px'}}>{props.size?.toUpperCase()}</label>
