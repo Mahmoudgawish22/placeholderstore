@@ -7,15 +7,15 @@ import { Provider } from 'react-redux'
 import { createStore, applyMiddleware, compose} from 'redux'
 import thunk from 'redux-thunk'
 import reducers from './reducers'
-
+import { HashRouter } from 'react-router-dom';
 const store = createStore(reducers, compose(applyMiddleware(thunk)))
 
 
 ReactDOM.render(
   <Provider store={store}>
-  <BrowserRouter>
+  <HashRouter>
      <App />
-  </BrowserRouter>
+  </HashRouter>
   </Provider>,
   document.getElementById('root')
 );
